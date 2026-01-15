@@ -15,7 +15,7 @@ Why this matters:
 - Rollbacks are as simple as git revert
 - Environment parity and repeatability
 - Native Kubernetes, no proprietary abstractions
-- GitOps enables infrastructure immutability: If a cluster dies, we don’t restore from backups , instead we redeploy from Git;
+- GitOps enables infrastructure immutability: If a cluster dies, we don’t restore from backups, instead we redeploy from Git;
 
 ## Security
 Flux runs inside the cluster and pulls from Git — nothing needs cluster credentials outside.
