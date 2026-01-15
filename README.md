@@ -17,3 +17,7 @@ flux bootstrap github \
 flux check
 flux get kustomizations -A
 kubectl -n flux-system get pods
+
+watch kubectl get nodes,pods --all-namespaces
+
+kubectl -n default port-forward svc/podinfo 8080:80
